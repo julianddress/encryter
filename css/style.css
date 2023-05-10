@@ -88,3 +88,218 @@ h1{
     padding: 12px 0;
     visibility: hidden;
 }
+
+/* AQUI INICIA EL MAIN */
+
+/*         
+
+SECTION 1 - REDACTAR MENSAJE 
+
+*/
+
+main{
+    background-color: #E9ECF8;
+}
+
+.logo-principal{
+    width: 100px;
+}
+
+.redactar-mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.encriptar-desencriptar{
+    display: inline-block;
+
+    width: 100%;
+    height: 1024px;
+}
+
+h2 .logo-principal{
+    margin: 40px 0 0 40px;
+    width: 120px;
+    height: 48px;
+}
+
+#input-redactar{
+    position: absolute;
+    cursor: pointer;
+
+    width: 900px;
+    height: 500px;
+    left: 240px;
+    top: 268px;
+    padding: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    background-color: #E9ECF8;
+    outline: none;
+    border: none;
+}
+
+.botones{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+h3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+}
+
+h3 .icono-exclamacion{
+    cursor: pointer;
+}
+
+#boton-encriptar{
+    cursor: pointer;
+
+    top: 34px;
+    width: 330px;
+    height: 67px;
+    margin-right: 16px;
+
+    color: #E9ECF8;
+    border-radius: 24px;
+    background-color: #0A3871;
+    box-shadow: 0px 20px 32px 0px rgba(0, 0, 0, 0.08);
+}
+
+#boton-desencriptar{
+    cursor: pointer;
+
+    width: 330px;
+    height: 67px;
+
+    color: darkblue;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    box-shadow: 0px 20px 32px 0px rgba(0, 0, 0, 0.08);
+}
+
+/*     AQUI INICIA 
+
+SECTION 2 - VISUALIZAR MENSAJE 
+
+*/
+
+.visualizar-mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.leer-mensaje{
+    position: absolute;
+    cursor: pointer;
+
+    top: 140px;
+    right: 40px;
+    width: 400px;
+    height: 944px;
+
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+#input-leer{
+    display: block;
+    visibility: hidden;
+
+    width: 336px;
+    height: 781px;
+    top: 72px;
+    padding: 0 2px;
+    margin: 32px 32px 0 32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #495057;
+    outline: none;
+    border: none;
+    border-style: hidden;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+}
+
+#boton-copiar{
+    box-sizing: border-box;
+    position: absolute;
+
+    /* Auto layout */
+    flex-direction: row;
+    
+    width: 336px;
+    height: 67px;
+    margin: 32px 32px 32px 32px;
+    padding: 24px 140px;
+
+    color: #0A3871;
+    background-color: #EFF1FA;
+    border: 1px solid #757FB2;
+    border-radius: 24px;
+    cursor: pointer;
+    box-shadow: 0px 24px 32px -4px rgba(0, 0, 0, 0.08);
+}
+
+.logo-muneco{
+    position: absolute;
+    top: 243px;
+    right: 32px;
+}
+
+.mensaje-notfound{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+
+    top: 579px;
+    right: 32px;
+    width: 326px;
+    height: 122px;
+
+    font-size: 16px;
+}
+
+strong{
+    font-size: 26px;
+    font-weight: bold;
+    color: #343A40;
+}
+
