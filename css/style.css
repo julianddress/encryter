@@ -606,3 +606,64 @@ footer{
         margin: 0 0 0 15px;
     }
 }
+
+@keyframes alura{
+    10% {
+        background-color: rgb(68, 204, 68);
+        left: 70px;
+        top: 20px;
+        transform: rotateZ(0deg);
+    }
+    20% {
+        background-color: rgb(32, 199, 194);
+        left: 70px;
+        top: 20px;
+        transform: rotateZ(30deg);
+    }
+    30% {
+        background-color: rgb(32, 199, 194);
+        left: 290px;
+        top: 20px;
+        transform: rotateZ(0deg);
+    }
+    40% {
+        background-color: rgb(32, 199, 194);
+        left: 400px;
+        top: 20px;
+        transform: rotateZ(0deg);
+    }
+    50% {
+        background-color: rgb(32, 199, 194); 
+        left: 400px; 
+        top: 20px;
+        transform: rotateZ(-20deg);
+    }
+    60% {
+        background-color: rgb(32, 199, 194); 
+        left: 370px; 
+        top: 20px;
+        transform: rotateZ(-90deg);
+    }
+    70% {
+        background-color: rgb(32, 199, 194);
+        left: 310px; 
+        top: 20px;
+        transform: rotateZ(-160deg);
+    }
+    80% {
+        background-color: rgb(32, 199, 194);
+        left: 250px; 
+        top: 20px;
+        transform: rotateZ(-230deg);
+    }
+    90% {
+        left: 190px; 
+        top: 20px;
+        transform: rotateZ(-300deg);
+    }
+    100% {
+        left: 70px; 
+        top: 20px;
+        transform: rotateZ(-360deg);
+    }
+}
