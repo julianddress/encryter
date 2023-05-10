@@ -120,3 +120,14 @@ opcionCopiar.onclick = copiarTexto;
 
 let encriptar = document.querySelector("#boton-encriptar");
 encriptar.onclick = encriptarTexto;
+
+// ---------------------------------------------------------------------
+
+const animationElement2 = document.querySelector('.alura-animation');
+const animationDuration = 4600; // Duración de la animación en milisegundos (ms)
+const animationElement1 = document.querySelector('p.name-profile');
+
+setTimeout(() => {
+    animationElement2.style.visibility = 'hidden';
+    animationElement1.style.visibility = 'visible';
+}, animationDuration);
