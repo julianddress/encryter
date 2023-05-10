@@ -455,3 +455,154 @@ footer{
     }
 
 }
+
+/* AQUI INICIA LA RESPONSIVIDAD CON CELULARES */
+
+@media screen and (max-width:500px){
+
+    h1{
+        position: relative;
+
+        top: 5%;
+        left: 0;
+        margin: 0 20px;
+    }
+
+    .name-profile{
+        font-size: 15px;
+    }
+
+    nav{
+        position: relative;
+
+        top: 30%;
+        right: 0;
+        margin: 0 0 0 200px;
+    }
+
+    nav li{
+        margin: 0 0;
+    }
+
+    nav a{
+        font-size: 15px;
+    }
+
+    .encabezado{
+        position: relative;
+    }
+
+    .alura-animation{
+        width: 60px;
+        height: 30px;
+
+        top: 5px;
+        left: 10px;
+    }
+
+    h2 .logo-principal{
+        margin-left: 0;
+    }
+
+    .encriptar-desencriptar{
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    #input-redactar{
+        position: relative;
+
+        top: 20px;
+        left: 10px;
+        width: 340px;
+        height: 290px;
+    }
+
+    h3{
+        position: relative;
+        top: 50px;
+        left: 40px;
+    }
+
+    .botones{
+        position: relative;
+        flex-direction: column;
+        height: max-content;
+        gap: 12px;
+
+        margin: 60px auto;
+        width: 330px;
+        top: 0;
+        left: 0;
+    }
+
+    .boton-desencriptar{
+        margin-top: 5px;
+    }
+
+    .leer-mensaje{
+        display: block;
+        position: relative;
+
+        top: -40px;
+        right: 0;
+        width: 327px;
+        height: auto;
+        margin: 20px auto 0 auto;
+        padding: 0 0 20px 0;
+    }
+
+    #input-leer{
+        position: relative;
+        display: block;
+
+        width: 255px;
+        height: 200px;
+        top: 22px;
+        margin: 0 22px 50px 22px;
+        padding: 10px 15px;
+    }
+
+    .logo-muneco, p .name-profile{
+        visibility: hidden;
+    }
+
+    .mensaje-notfound{
+        position: absolute;
+        top: 28%;
+        left: 0;
+        width: 310px;
+        height: auto;
+        padding: 10px;
+    }
+
+    #boton-copiar{
+        display: block;
+        position: relative;
+
+        height: auto;
+        width: 279px;
+        top: 0;
+        right: 0;
+        margin: auto;
+        padding: 25px 100px;
+    }
+
+    .copyright{
+        font-size: 15px;
+        left: 0;
+    }
+
+    .redes-sociales{
+        display: flex;
+        
+        margin-top: 20px;
+        padding: 5px 5px;
+        left: 0;
+    }
+
+    .redes-sociales a{
+        margin: 0 0 0 15px;
+    }
+}
