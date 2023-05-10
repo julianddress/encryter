@@ -1,0 +1,90 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #CED4DA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.alura-animation{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 60px;
+    height: 50px;
+    top: 20px;
+    left: 70px;
+
+    border: 1px solid #E9ECF8;
+    border-radius: 10px;
+    background-color: rgb(68, 204, 68);
+    
+    animation-fill-mode: forwards;
+    animation: alura 4s linear 0.5s;
+    transition: transform 1s ease-in-out;
+    animation-iteration-count: 1;
+    visibility: visible;
+}
+
+.alura-animation p{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #D8DFE8;
+}
+
+.encabezado{
+    position: relative;
+
+    height: 100px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+
+    top: 40px;
+    right: 80px;
+}
+
+nav li{
+    display: inline;
+
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+
+    color: #0A3871;
+    transition: 400ms;
+}
+
+nav a:hover{
+    font-size: 27px;
+    font-weight: bold;
+    color: #0A3871;
+}
+
+h1{
+    position: absolute;
+    display: inline;
+
+    top: 30px;
+    left: 70px;
+}
+
+.name-profile{
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+
+    font-size: 25px;
+    font-weight: bold;
+    padding: 12px 0;
+    visibility: hidden;
+}
