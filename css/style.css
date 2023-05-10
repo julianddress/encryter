@@ -345,3 +345,113 @@ footer{
     margin: 0 30px 0 0;
 }
 
+/* AQUI INICIA LA RESPONSIVIDAD CON TABLETS  */
+
+@media screen and (max-width:880px){
+
+    .alura-animation{
+        left: 40px;
+    }
+
+    .name-profile{
+        font-size: 18px;
+    }
+
+    nav a{
+
+        font-size: 22px;
+    }
+
+    .encriptar-desencriptar{
+        display: block;
+
+        height: auto;
+        width: 100%;
+    }
+
+    h2 .logo-principal{
+        margin-left: 0;
+    }
+
+    #input-redactar{
+        position: relative;
+
+        top: 30px;
+        left: 60px;
+        width: 688px;
+        height: 400px;
+    }
+
+    .botones{
+        position: relative;
+
+        margin: 67px auto;
+        width: 688px;
+        top: 50px;
+        left: 0;
+    }
+
+    .boton-desencriptar{
+        margin-top: 5px;
+    }
+
+    h3{
+        position: relative;
+        top: 100px;
+        left: 80px;
+    }
+
+    .leer-mensaje{
+        display: block;
+        position: relative;
+
+        top: -40px;
+        right: 0;
+        width: 688px;
+        height: auto;
+        margin: 50px auto 0 auto;
+        padding: 0 0 20px 0;
+    }
+
+    #input-leer{
+        position: relative;
+        display: block;
+        width: 624px;
+        height: 60px;
+        top: 22px;
+        margin: 20px;
+        padding: 10px 15px;
+    }
+
+    .logo-muneco{
+        display: none;
+    }
+
+    .mensaje-notfound{
+        position: absolute;
+        top: 45px;
+        left: 5%;
+        width: 624px;
+        height: 29px;
+    }
+
+    h4{
+        display: none;
+    }
+
+    #boton-copiar{
+        position: relative;
+        display: block;
+        margin: 30px;
+        padding: 25px 100px;
+        height: 67px;
+        width: 624px;
+        top: 25px;
+        right: 0;
+    }
+
+    footer{
+        height: 150px;
+    }
+
+}
