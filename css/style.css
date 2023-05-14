@@ -131,7 +131,7 @@ h2 .logo-principal{
     position: absolute;
     cursor: pointer;
 
-    width: 900px;
+    width: 45%;
     height: 500px;
     left: 240px;
     top: 268px;
@@ -378,7 +378,7 @@ footer{
 
         top: 30px;
         left: 60px;
-        width: 600px;
+        width: 75%;
         height: auto;
     }
 
