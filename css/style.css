@@ -132,7 +132,7 @@ h2 .logo-principal{
     cursor: pointer;
 
     width: 900px;
-    height: 500px;
+    height: 600px;
     left: 240px;
     top: 268px;
     padding: 15px;
@@ -378,8 +378,8 @@ footer{
 
         top: 30px;
         left: 60px;
-        width: 688px;
-        height: 400px;
+        width: 600px;
+        height: auto;
     }
 
     .botones{
@@ -514,8 +514,8 @@ footer{
         position: relative;
 
         top: 20px;
-        left: 10px;
-        width: 340px;
+        left: 20px;
+        width: 300px;
         height: 290px;
     }
 
